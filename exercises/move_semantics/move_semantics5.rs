@@ -6,10 +6,6 @@
 fn main() {
     let mut x = 100;
     let y = &mut x;
-<<<<<<< HEAD
-    let z = &mut x;
-=======
->>>>>>> wip
     *y += 100;
     let z = &mut *y;
     *z += 1000;
